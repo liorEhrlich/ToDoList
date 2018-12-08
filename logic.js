@@ -135,7 +135,6 @@ class App extends React.Component {
                 <div className="topBarCls"></div>
                 <h1>To Do List</h1>
                 <input type="text" onKeyUp={this.createToDoTask} />
-                <input type="date" name="duedate"/>
                 <h2>To Do Tasks</h2>
                 {toDoTasks}
                 <hr />
