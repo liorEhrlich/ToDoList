@@ -34,3 +34,14 @@ button{
     float: right;
     margin:30px;
 }
+.task{
+    animation-name: fadeInOut;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+@keyframes fadeInOut {
+    from { opacity: 0.3; }
+    to   { opacity: 1; }
+  }
+
+

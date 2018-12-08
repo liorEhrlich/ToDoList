@@ -16,7 +16,7 @@ class ToDoTask extends React.Component {
     }
     render() {
         return (
-            <div>
+            <div className="task">
                 {this.props.name}
                 <button onClick={this.markAsComplete}>&#10003;</button>
                 <button onClick={this.markAsDelete}>&#x2717;</button>
@@ -45,7 +45,7 @@ class CompletedTask extends React.Component {
     }
     render() {
         return (
-            <div>
+            <div className="task">
                 {this.props.name}
                 <button onClick={this.markAsToDo}>&uarr;</button>
                 <button onClick={this.markAsDelete}>&#x2717;</button>
